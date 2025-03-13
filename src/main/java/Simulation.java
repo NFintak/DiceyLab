@@ -16,7 +16,7 @@ public class Simulation {
     }
 
     public void printResults() {
-
+        //need to work on bins class before adding this in
     }
 
 }
