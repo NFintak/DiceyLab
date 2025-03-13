@@ -9,7 +9,7 @@ public class DiceTests {
     public void test1throwWithTwoDice() {
         Dice dice = new Dice(2);
         Integer actualNumber = dice.tossAndSum();
-        assertTrue(2 < actualNumber);
+        assertTrue(1 < actualNumber);
         assertTrue(actualNumber < 13);
     }
 
@@ -17,7 +17,8 @@ public class DiceTests {
     public void test2throwWithFiveDice() {
         Dice dice = new Dice(5);
         Integer actualNumber = dice.tossAndSum();
-
+        assertTrue(4 < actualNumber);
+        assertTrue(actualNumber < 31);
     }
 
 }
